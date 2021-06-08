@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    height: 800px;
+    background:#9cdadf ; 
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#container >h1 {
+    width: 100%;
+    text-align: center;
+    color: rgb(81, 28, 224);
+    margin-top: 20px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.box1 {
+    height: 250px;
+}
+
+.box2 {
+    height: 200px;
+}
+
+.box1 img {
+    float: left;
+    margin: 33px;
+
+}
+
+.box1 img:hover{
+    background-color: rgb(32, 175, 201);
+    border-radius: 50%;
+}
+
+.box2 img {
+    /* width: 100%; */
+    float: left;
+    margin: 20px 110px;
+    width: 150px;
+    height: 150px;
+}
+
+.box2 h1 {
+    display: block;
+    color: rgb(14, 29, 235);
+    float: left;
+    line-height: 200px;
+}
+
+#result {
+    text-align: center;
+    color: rgb(219, 42, 42);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text {
+    height: 30px;
+}
+
+.text span {
+    font-size: 30px;
+    color: rgb(1, 4, 12);
+    margin: 0 100px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+#score {
+    text-align: center;
+    font-size: 40px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: rgba(149, 243, 188,.5);
+}
+#btn {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(61, 18, 216);
+    width: 150px; 
+    margin-top: 3px;
+    margin-right: 10px;
+    float:right;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(62, 165, 206, 0.5);
+}
